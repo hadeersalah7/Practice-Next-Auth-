@@ -1,4 +1,4 @@
-"use-server";
+"use server";
 
 export async function signup(prevState, formData: FormData) {
     const emailValue = formData.get("email")
@@ -17,5 +17,4 @@ export async function signup(prevState, formData: FormData) {
             errors
         }
     }
-    return { errors, prevState }
 }
