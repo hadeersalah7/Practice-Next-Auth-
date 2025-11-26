@@ -1,4 +1,4 @@
-import { getTrainings } from '@/lib/training';
+import { getTrainings } from '../../lib/training';
 import React from 'react';
 
 export default async function TrainingPage() {
